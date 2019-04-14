@@ -324,3 +324,6 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+.contact .intro .main-header-img {
+  border-radius: 5px;
+}
