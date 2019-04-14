@@ -1,7 +1,7 @@
 // Navigation code here
 .navigation {
     background-color: @nav-bg;
-    padding: 20px;
+    padding: 10px;
     border-bottom: 2px solid @nav-border;
 
     .top-nav {
@@ -17,9 +17,22 @@
 
         .nav-items {
             max-width: 800px;
-            width: 60%;
+            width: 50%;
             margin: 0 auto;
             .flexed(space-around);
+            padding-top: 20px;
+
+            a {
+                font-size: 1.6rem;
+                font-weight: 700;
+                color: black;
+                font-style: @nav-font;
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
         }
     }
 }

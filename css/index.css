@@ -162,7 +162,7 @@ p {
 }
 .navigation {
   background-color: #F6F6F6;
-  padding: 20px;
+  padding: 10px;
   border-bottom: 2px solid #F1F1F1;
 }
 .navigation .top-nav .nav-header {
@@ -176,11 +176,22 @@ p {
 }
 .navigation .top-nav .nav-items {
   max-width: 800px;
-  width: 60%;
+  width: 50%;
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding-top: 20px;
+}
+.navigation .top-nav .nav-items a {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: black;
+  font-style: #454A59;
+  text-decoration: none;
+}
+.navigation .top-nav .nav-items a:hover {
+  text-decoration: underline;
 }
 footer {
   color: #22283B;
