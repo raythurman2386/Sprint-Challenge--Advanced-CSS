@@ -7,7 +7,7 @@
     .top-nav {
         .nav-header { 
             max-width: 800px;
-            width: 60%;
+            width: 80%;
             margin: 0 auto;
             h1 {
                 font-size: 4rem;
@@ -17,10 +17,17 @@
 
         .nav-items {
             max-width: 800px;
-            width: 50%;
+            width: 80%;
             margin: 0 auto;
-            .flexed(space-around);
+            .flexed(space-evenly);
             padding-top: 20px;
+
+            @media @phone {
+                max-width: 500px;
+                .nav-items {
+                    width: 100%;
+                }
+            }
 
             a {
                 font-size: 1.6rem;
