@@ -160,6 +160,28 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.navigation {
+  background-color: #F6F6F6;
+  padding: 20px;
+  border-bottom: 2px solid #F1F1F1;
+}
+.navigation .top-nav .nav-header {
+  max-width: 800px;
+  width: 60%;
+  margin: 0 auto;
+}
+.navigation .top-nav .nav-header h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+.navigation .top-nav .nav-items {
+  max-width: 800px;
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
