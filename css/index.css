@@ -370,6 +370,36 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+.about .intro {
+  margin-bottom: 2rem;
+}
+.about .intro .main-header-img {
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+.about .main-about {
+  width: 80%;
+  margin: 0 auto;
+}
+.about .about-img {
+  width: 80%;
+  margin: 20px auto;
+}
+.about .about-img .launch {
+  width: 100%;
+  border-radius: 10px;
+}
+.about .location {
+  width: 80%;
+  margin: 20px auto;
+}
+.about .location address {
+  margin-top: 20px;
+}
+.about .location address ul li {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
 .contact .intro {
   margin-bottom: 2rem;
 }
