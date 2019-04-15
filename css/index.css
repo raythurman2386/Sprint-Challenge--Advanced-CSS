@@ -250,6 +250,18 @@ footer {
     width: 98%;
   }
 }
+@media (max-width: 700px) {
+  .home .space-images {
+    max-width: 700px;
+  }
+  .home .space-images .launch {
+    display: none;
+  }
+  .home .space-images .sky,
+  .home .space-images .blast {
+    width: 45%;
+  }
+}
 .home .space-images img {
   width: 28%;
   margin: 20px 2.5%;
@@ -279,10 +291,24 @@ footer {
     padding: 0;
   }
 }
+@media (max-width: 700px) {
+  .home .walk {
+    flex-direction: column-reverse;
+    max-width: 700px;
+    padding: 0;
+  }
+}
 .home .walk .walk-text {
   width: 50%;
 }
 @media (max-width: 500px) {
+  .home .walk .walk-text {
+    width: 95%;
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+@media (max-width: 700px) {
   .home .walk .walk-text {
     width: 95%;
     margin: 0 auto;
@@ -316,11 +342,24 @@ footer {
     margin-bottom: 2rem;
   }
 }
+@media (max-width: 700px) {
+  .home .walk .walk-text .btn .main-btn {
+    width: 95%;
+    padding: 20px 0;
+    margin-bottom: 2rem;
+  }
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
 }
 @media (max-width: 500px) {
+  .home .walk .walk-img {
+    width: 98%;
+    margin: 20px auto;
+  }
+}
+@media (max-width: 700px) {
   .home .walk .walk-img {
     width: 98%;
     margin: 20px auto;

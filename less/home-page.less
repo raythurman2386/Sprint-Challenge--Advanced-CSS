@@ -40,6 +40,19 @@
             }
         }
 
+        @media @tablet {
+            max-width: 700px;
+
+            .launch {
+                display: none;
+            }
+
+            .sky,
+            .blast {
+                width: 45%;
+            }
+        }
+
         img {
             width: 28%;
             margin: 20px 2.5%;
@@ -73,10 +86,22 @@
             padding: 0;
         }
 
+        @media @tablet {
+            flex-direction: column-reverse;
+            max-width: 700px;
+            padding: 0;
+        }
+
         .walk-text {
             width: 50%;
 
             @media @phone {
+                width: 95%;
+                margin: 0 auto;
+                padding: 0;
+            }
+
+            @media @tablet {
                 width: 95%;
                 margin: 0 auto;
                 padding: 0;
@@ -99,6 +124,12 @@
                         padding: 20px 0;
                         margin-bottom: 2rem;
                     }
+
+                    @media @tablet {
+                        width: 95%;
+                        padding: 20px 0;
+                        margin-bottom: 2rem;
+                    }
                 }
             }
         }
@@ -108,6 +139,11 @@
             margin-left: 4%;
 
             @media @phone {
+                width: 98%;
+                margin: 20px auto;
+            }
+
+            @media @tablet {
                 width: 98%;
                 margin: 20px auto;
             }
