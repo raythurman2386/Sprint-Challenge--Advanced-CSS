@@ -342,6 +342,11 @@ footer {
   font-weight: 600;
   padding: 10px 0;
 }
+.contact .contact-form .form .top-form .left input,
+.contact .contact-form .form .top-form .right input {
+  border: none;
+  border-bottom: 3px solid #dee2e6;
+}
 .contact .contact-form .form .bot-form {
   display: flex;
   justify-content: center;
@@ -355,6 +360,7 @@ footer {
 }
 .contact .contact-form .form .bot-form #textbox {
   width: 75%;
+  border-radius: 5px;
 }
 .contact .contact-form .form .bot-form .submit {
   color: #fff;
