@@ -27,19 +27,6 @@
         flex-wrap: wrap;
         width: 100%;
 
-        @media @phone {
-            max-width: 500px;
-
-            .sky,
-            .launch {
-                display: none;
-            }
-
-            .blast {
-                width: 98%;
-            }
-        }
-
         @media @tablet {
             max-width: 700px;
 
@@ -50,6 +37,19 @@
             .sky,
             .blast {
                 width: 45%;
+            }
+        }
+
+        @media @phone {
+            max-width: 500px;
+
+            .sky,
+            .launch {
+                display: none;
+            }
+
+            .blast {
+                width: 98%;
             }
         }
 

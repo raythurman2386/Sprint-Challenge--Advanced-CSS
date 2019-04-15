@@ -238,18 +238,6 @@ footer {
   flex-wrap: wrap;
   width: 100%;
 }
-@media (max-width: 500px) {
-  .home .space-images {
-    max-width: 500px;
-  }
-  .home .space-images .sky,
-  .home .space-images .launch {
-    display: none;
-  }
-  .home .space-images .blast {
-    width: 98%;
-  }
-}
 @media (max-width: 700px) {
   .home .space-images {
     max-width: 700px;
@@ -260,6 +248,18 @@ footer {
   .home .space-images .sky,
   .home .space-images .blast {
     width: 45%;
+  }
+}
+@media (max-width: 500px) {
+  .home .space-images {
+    max-width: 500px;
+  }
+  .home .space-images .sky,
+  .home .space-images .launch {
+    display: none;
+  }
+  .home .space-images .blast {
+    width: 98%;
   }
 }
 .home .space-images img {
