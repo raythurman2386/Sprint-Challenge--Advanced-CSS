@@ -2,6 +2,46 @@
     .intro {
         .main-header-img {
             border-radius: 5px;
+            margin-bottom: 2rem;
+        }
+
+        margin-bottom: 2rem;
+    }
+
+    .contact-form {
+        .form {
+            .top-form {
+                .flexed(space-around, center);
+                .left, .right {
+                    label {
+                        .labels();
+                    }
+                }
+            }
+
+            .bot-form {
+                .flexed(center, center);
+                flex-direction: column;
+
+                label {
+                    .labels();
+                }
+
+                #textbox {
+                    width: 75%;
+                }
+
+                .submit {
+                    .main-button-style(#fff, @btn-bg-color, 8px 15px);
+                    margin: 20px 0;
+
+                    @media @phone {
+                        width: 95%;
+                        padding: 20px 0;
+                        margin-bottom: 2rem;
+                    }
+                }
+            }
         }
     }
 }
