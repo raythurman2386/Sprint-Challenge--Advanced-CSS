@@ -403,6 +403,9 @@ footer {
   font-size: 1.4rem;
   font-weight: 600;
 }
+.contact {
+  margin-top: 100px;
+}
 .contact .intro {
   margin-bottom: 2rem;
 }
