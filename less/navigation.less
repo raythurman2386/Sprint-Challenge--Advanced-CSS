@@ -4,15 +4,14 @@
     padding: 10px;
     border-bottom: 2px solid @nav-border;
     width: 100%;
-    position: fixed; 
+    position: fixed;
     top: 0;
     opacity: .95;
 
     .top-nav {
-        .nav-header { 
-            max-width: 800px;
-            width: 80%;
-            margin: 0 auto;
+        .nav-header {
+            .max-width(800px, 80%);
+
             h1 {
                 font-size: 4rem;
                 text-align: center;
@@ -20,14 +19,13 @@
         }
 
         .nav-items {
-            max-width: 800px;
-            width: 80%;
-            margin: 0 auto;
+            .max-width(800px, 80%);
             .flexed(space-evenly);
             padding-top: 20px;
 
             @media @phone {
                 max-width: 500px;
+
                 .nav-items {
                     width: 100%;
                 }
