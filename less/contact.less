@@ -13,6 +13,7 @@
         .form {
             .top-form {
                 .flexed(space-around, center);
+
                 .left, .right {
                     label {
                         .labels();
@@ -35,6 +36,10 @@
                 #textbox {
                     width: 75%;
                     border-radius: 5px;
+
+                    @media @tablet{
+                        width: 90%;
+                    }
                 }
 
                 .submit {

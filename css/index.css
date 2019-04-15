@@ -444,6 +444,11 @@ footer {
   width: 75%;
   border-radius: 5px;
 }
+@media (max-width: 700px) {
+  .contact .contact-form .form .bot-form #textbox {
+    width: 90%;
+  }
+}
 .contact .contact-form .form .bot-form .submit {
   color: #fff;
   background-color: #22283A;
