@@ -370,6 +370,9 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+.about {
+  margin-top: 100px;
+}
 .about .intro {
   margin-bottom: 2rem;
 }
